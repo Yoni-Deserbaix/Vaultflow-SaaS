@@ -1,8 +1,17 @@
-# React + Vite
+# Challenge SaaS 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Challenge landing page type SaaS de [Spikes](https://www.spikes-challenges.fr) par [@0xEzis](https://x.com/0xEzis) sur X !
 
-Currently, two official plugins are available:
+### 📚 Développe ce challenge pour apprendre :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Utilisation avancée des ombres CSS.
+- Création d'interactions dynamiques et visuelles.
+- Apprentissage des mises en page modernes et réactives.
+
+  
+### 🎯 Pour aller plus loin :
+
+- Intégration des autres pages.
+- Intégration d'animations de reveal au scroll.
+- Implémentation d'un changement de thème pour améliorer l'expérience utilisateur.
+- Ajout d'un formulaire de newsletter.
