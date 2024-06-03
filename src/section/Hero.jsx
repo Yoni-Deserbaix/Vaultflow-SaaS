@@ -17,7 +17,7 @@ export default function Hero() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
         Suspendisse varius enim in eros elementum tristique.
       </p>
-      <div className="m-auto mt-8 flex max-w-xl items-center justify-center gap-4">
+      <div className="m-auto mt-8 flex max-w-xl items-center justify-center gap-4 ">
         <Button text="Download the app" className="py-2.5" />
         <Button text="Talk to an expert" invert className="py-2.5 font-light" />
       </div>
