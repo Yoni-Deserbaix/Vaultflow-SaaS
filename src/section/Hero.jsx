@@ -1,3 +1,5 @@
+import Button from "../components/button";
+
 export default function Hero() {
   return (
     <div className="mt-28 text-center">
@@ -11,6 +13,14 @@ export default function Hero() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
         Suspendisse varius enim in eros elementum tristique.
       </p>
+      <div className="m-auto flex max-w-xl items-center justify-center gap-4">
+        <Button text="Download the app" className="py-3" />
+        <Button
+          text="Talk to an expert"
+          colorStyle
+          className="py-3 font-light"
+        />
+      </div>
     </div>
   );
 }

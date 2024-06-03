@@ -1,3 +1,5 @@
+import Button from "../components/button";
+
 export default function Navbar() {
   return (
     <div>
@@ -21,9 +23,7 @@ export default function Navbar() {
             About us
           </li>
         </ul>
-        <div className="my-1 cursor-pointer rounded-3xl bg-[#ECECEC] px-5 py-2 text-black transition-all hover:bg-gray-300">
-          Downloap the app
-        </div>
+        <Button text="Download the app" />
       </div>
     </div>
   );

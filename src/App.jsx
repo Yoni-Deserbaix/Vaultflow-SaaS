@@ -1,5 +1,5 @@
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import Hero from "./section/Hero";
+import Navbar from "./section/Navbar";
 
 export default function App() {
   return (
