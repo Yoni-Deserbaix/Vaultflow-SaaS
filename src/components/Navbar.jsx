@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <div>
-      <div className="m-8 flex items-center justify-between rounded-3xl bg-[#0B081C] bg-opacity-50 px-10 py-2.5 text-white">
+      <div className="m-8 flex items-center justify-between rounded-3xl bg-[#0B081C] bg-opacity-50 px-10 py-2.5 text-[#ECECEC]">
         <div className="flex cursor-pointer gap-2 text-xl">
           <img
             src="../assets/Valtflow.svg"
@@ -21,7 +21,7 @@ export default function Navbar() {
             About us
           </li>
         </ul>
-        <div className="my-1 cursor-pointer rounded-3xl bg-white px-5 py-2 text-black transition-all hover:bg-gray-300">
+        <div className="my-1 cursor-pointer rounded-3xl bg-[#ECECEC] px-5 py-2 text-black transition-all hover:bg-gray-300">
           Downloap the app
         </div>
       </div>
