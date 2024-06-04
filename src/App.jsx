@@ -1,4 +1,5 @@
 import Brand from "./section/Brand";
+import Features from "./section/Features";
 import Hero from "./section/Hero";
 import HeroImage from "./section/HeroImage";
 import Navbar from "./section/Navbar";
@@ -17,6 +18,7 @@ export default function App() {
           </div>
           <div className="-mt-12 bg-[#0b0121]">
             <Brand />
+            <Features />
           </div>
         </div>
       </div>
