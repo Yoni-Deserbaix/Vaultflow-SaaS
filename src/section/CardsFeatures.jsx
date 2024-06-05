@@ -24,5 +24,13 @@ export default function CardsFeatures() {
       imageCode: "./assets/code_card.svg",
     },
   ];
-  return <div>CardsFeatures</div>;
+  return (
+    <div className="mx-56">
+      <div className="grid grid-cols-2 gap-6">
+        <div className="h-[372px] rounded-lg bg-gray-200"></div>
+        <div className="h-[372px] rounded-lg bg-gray-200"></div>
+      </div>
+      <div className="mt-20 h-[372px] w-full rounded-lg bg-gray-200"></div>
+    </div>
+  );
 }
