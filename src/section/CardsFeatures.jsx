@@ -24,11 +24,22 @@ export default function CardsFeatures() {
       imageCode: "./assets/code_card.svg",
     },
   ];
+
+  const slicedCards = cards.slice(0, 2);
+
   return (
     <div className="mx-56">
       <div className="grid grid-cols-2 gap-6">
-        <div className="h-[372px] rounded-lg bg-gray-200"></div>
-        <div className="h-[372px] rounded-lg bg-gray-200"></div>
+        {slicedCards.map((card, index) => (
+          <div key={index}>
+            <div className="h-[372px] rounded-lg bg-gray-200">
+              <img src={card.src} alt="icon" />
+              <h1>{card.title}</h1>
+              <p>{card.caption}</p>
+              <span>{card.viewLink}</span>
+            </div>
+          </div>
+        ))}
       </div>
       <div className="mt-20 h-[372px] w-full rounded-lg bg-gray-200"></div>
     </div>
