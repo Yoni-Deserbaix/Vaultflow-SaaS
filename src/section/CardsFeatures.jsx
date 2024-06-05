@@ -41,7 +41,13 @@ export default function CardsFeatures() {
           </div>
         ))}
       </div>
-      <div className="mt-20 h-[372px] w-full rounded-lg bg-gray-200"></div>
+      <div className="mt-20 h-[372px] w-full rounded-lg bg-gray-200">
+        <img src={cards[2].src} alt="icon" />
+        <h1>{cards[2].title}</h1>
+        <p>{cards[2].caption}</p>
+        <span>{cards[2].viewLink}</span>
+        <img src={cards[2].imageCode} alt="DigitalToken.js code" />
+      </div>
     </div>
   );
 }
