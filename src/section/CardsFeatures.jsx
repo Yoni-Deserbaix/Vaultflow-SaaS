@@ -64,61 +64,6 @@ export default function CardsFeatures() {
           />
         </div>
       </div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas culpa
-      totam officia? Alias totam, rerum nostrum perferendis repudiandae
-      inventore tempora quas laborum modi illum odio, corrupti amet! Voluptatem
-      autem corrupti ipsum cumque, explicabo aut ullam itaque eaque quae magnam
-      ratione libero veniam nulla, tenetur saepe. Ad, consequuntur cupiditate
-      fugit ut commodi beatae tenetur quae ratione voluptatem dicta eius eaque!
-      Ex rerum culpa animi fugit assumenda illum quam eligendi corrupti,
-      incidunt voluptas doloremque nesciunt atque consectetur dolorem quos
-      numquam deserunt est aut aperiam quidem officiis cupiditate alias
-      exercitationem! Earum commodi incidunt eligendi sequi eos nihil officia ea
-      molestias quasi, iure non assumenda veniam dolorem autem repellendus
-      repudiandae quam rem. Nulla consectetur veniam et molestiae fugiat error
-      sequi, ab nostrum voluptates deserunt culpa facilis cupiditate aperiam
-      doloremque ad excepturi impedit sed vitae repudiandae suscipit. Vitae
-      ducimus culpa voluptatem deserunt, quia omnis nisi deleniti ad dolore
-      debitis aliquam necessitatibus rerum suscipit maiores! Quae, voluptas
-      dolores cumque eius voluptatibus laudantium. Ullam cum exercitationem
-      officia voluptatem non! Voluptas sunt, molestias cumque qui, ipsa earum
-      temporibus optio facilis sequi officia unde accusamus pariatur
-      reprehenderit suscipit repellat mollitia reiciendis quas repudiandae.
-      Commodi, eligendi! Deleniti, animi rem ab quis deserunt corrupti maxime
-      nihil ipsa eligendi nemo voluptatem debitis possimus placeat sequi veniam
-      laudantium laboriosam sed fugiat. Numquam odio voluptatem provident
-      eveniet veritatis possimus corrupti voluptatum, explicabo, deleniti
-      officiis esse voluptatibus deserunt ad fugit, commodi repellat quae cumque
-      quis molestias magni minima optio cupiditate ipsum obcaecati. Numquam
-      dignissimos provident, possimus laborum inventore aperiam aspernatur,
-      dolorem iure quibusdam facilis eligendi neque id consectetur voluptate
-      cum. Nulla ipsam rem ipsum consectetur accusamus aut nemo, repellendus
-      deserunt pariatur eius quisquam quo vero maxime ut animi porro harum
-      dignissimos voluptate dolorem accusantium modi quaerat laborum nihil a?
-      Neque impedit eos quam nihil quia reprehenderit non quo accusantium et,
-      dolorem excepturi iusto facere iste, tempora exercitationem perspiciatis
-      aliquam totam corrupti doloremque, itaque molestiae at deleniti.
-      Asperiores, distinctio aut quod ab, ipsam assumenda, unde incidunt qui
-      vero vel expedita et nostrum provident porro beatae doloribus similique
-      inventore corporis esse aliquam dignissimos. Distinctio assumenda sint
-      laudantium quod veritatis, asperiores autem dolores iste minima aliquam
-      unde numquam enim quidem impedit dolorum est consequuntur? Harum
-      repellendus omnis assumenda nulla voluptatibus possimus. Illo corporis
-      consectetur ut neque temporibus nobis! Repellendus temporibus inventore
-      necessitatibus quo laudantium doloribus pariatur similique fuga. Sunt
-      temporibus quisquam quasi ut. Quisquam, vero corporis inventore quas optio
-      architecto vel aut, fugiat adipisci laborum quasi expedita, explicabo amet
-      ea animi voluptates nam neque. Velit voluptates amet necessitatibus optio
-      aut, impedit rem fugiat, ullam praesentium unde eligendi adipisci facilis
-      perferendis fugit. Corporis temporibus quas possimus minus aut eligendi
-      perferendis ratione natus quos repellat! Itaque, adipisci? Perspiciatis
-      quas ducimus eius libero repellat quisquam saepe rerum corrupti
-      voluptatibus quam adipisci, voluptatem tenetur dolorem accusamus impedit
-      ipsam, aut ullam esse numquam nobis cupiditate odit non? Accusamus
-      consequuntur non maiores porro unde ducimus, excepturi vero ipsum est
-      quibusdam, quasi amet numquam quidem ipsam eveniet exercitationem
-      necessitatibus veniam saepe eligendi pariatur minus provident temporibus
-      dicta harum? Inventore nostrum delectus rem nobis. Maiores, voluptatibus.
     </div>
   );
 }
