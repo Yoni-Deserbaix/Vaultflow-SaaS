@@ -2,43 +2,43 @@ import data from "../data";
 
 export default function Footer() {
   return (
-    <div className="text-white">
+    <div className="mx-auto max-w-screen-xl p-4 text-white">
       <div>
         {data.footer.map((item, index) => (
           <div key={index}>
             <div>
-              <h2>Contact</h2>
+              <h2 className="text-2xl font-medium">Contact</h2>
               <p>
-                Work inquiries:
+                Work inquiries:{" "}
                 <a href={`mailto:${item.contact.work_inquiries}`}>
                   {item.contact.work_inquiries}
                 </a>
               </p>
               <p>
-                PR and speaking:
+                PR and speaking:{" "}
                 <a href={`mailto:${item.contact.pr_and_speaking}`}>
                   {item.contact.pr_and_speaking}
                 </a>
               </p>
               <p>
-                New business:
+                New business:{" "}
                 <a href={`mailto:${item.contact.new_business}`}>
                   {item.contact.new_business}
                 </a>
               </p>
             </div>
             <div>
-              <h2>Careers</h2>
+              <h2 className="text-2xl font-medium">Careers</h2>
               <p>
-                <a href={`mailto:${data.careers}`}>{data.careers}</a>
+                <a href={`mailto:${item.careers}`}>{item.careers}</a>
               </p>
             </div>
             <div>
-              <h3>Address</h3>
+              <h2 className="text-2xl font-medium">Address</h2>
               <p>{item.address.street}</p>
               <p>{item.address.city}</p>
             </div>
-            <h3>Social</h3>
+            <h2 className="text-2xl font-medium">Social</h2>
             <ul>
               {item.social.map((platform, index) => (
                 <li key={index}>{platform}</li>
