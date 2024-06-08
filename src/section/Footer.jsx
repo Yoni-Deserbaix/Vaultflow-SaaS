@@ -47,10 +47,18 @@ export default function Footer() {
           </div>
         ))}
       </div>
-      <div>
+      <div className="flex justify-between">
         <p className="font-extralight text-[#939393]">
           &copy; 2023 Vaultflow. All Rights Reserved.
         </p>
+        <div className="flex gap-3">
+          <img
+            src="../assets/Valtflow.svg"
+            alt="Vaultflow logo"
+            className="h-6 w-6"
+          />
+          <p className="font-bold">Vaultflow</p>
+        </div>
       </div>
     </div>
   );
