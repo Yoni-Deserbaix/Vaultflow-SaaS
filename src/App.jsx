@@ -15,7 +15,7 @@ export default function App() {
           <div className="mx-auto max-w-4xl">
             <Hero />
           </div>
-          <div className="relative z-10 mx-auto mt-12 max-w-5xl">
+          <div className="relative z-10 mx-auto mt-12 max-w-4xl">
             <HeroImage />
           </div>
           <div className="-mt-12 bg-[#0b0121]">

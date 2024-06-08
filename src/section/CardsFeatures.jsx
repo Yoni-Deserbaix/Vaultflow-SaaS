@@ -16,7 +16,7 @@ export default function CardsFeatures() {
                   src={card.src}
                   alt="icon"
                   style={card.shadow}
-                  className="w-[50px] rounded-lg"
+                  className="h-12 w-12 rounded-lg"
                 />
                 <h1 className="pb-3 pt-4 text-[32px] text-[#ECECEC]">
                   {card.title}
@@ -40,7 +40,7 @@ export default function CardsFeatures() {
               src={data.cardsData[2].src}
               alt="icon"
               style={data.cardsData[2].shadow}
-              className="w-[50px] rounded-lg"
+              className="h-12 w-12 rounded-lg"
             />
             <h1 className="pb-3 pr-8 pt-4 text-[32px] text-[#ECECEC]">
               {data.cardsData[2].title}
@@ -58,7 +58,7 @@ export default function CardsFeatures() {
             src={data.cardsData[2].imageCode}
             alt="DigitalToken.js code"
             style={cardStyle}
-            className="rounded-3xl"
+            className="w-auto h-auto rounded-3xl"
           />
         </div>
       </div>

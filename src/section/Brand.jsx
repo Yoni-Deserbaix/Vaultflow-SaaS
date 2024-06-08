@@ -17,7 +17,7 @@ export default function Brand() {
       <div className="mt-8 flex items-center justify-center gap-3">
         {brandsLogo.map((logo, index) => (
           <div key={index} className="m-4">
-            <img src={logo.src} alt={logo.name} className="w-auto" />
+            <img src={logo.src} alt={logo.name} className="w-full h-full" />
           </div>
         ))}
       </div>
