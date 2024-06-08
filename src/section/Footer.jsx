@@ -8,19 +8,19 @@ export default function Footer() {
           <div key={index}>
             <div>
               <h2 className="text-2xl font-medium">Contact</h2>
-              <p>
+              <p className="text-lg font-extralight">
                 Work inquiries:{" "}
                 <a href={`mailto:${item.contact.work_inquiries}`}>
                   {item.contact.work_inquiries}
                 </a>
               </p>
-              <p>
+              <p className="text-lg font-extralight">
                 PR and speaking:{" "}
                 <a href={`mailto:${item.contact.pr_and_speaking}`}>
                   {item.contact.pr_and_speaking}
                 </a>
               </p>
-              <p>
+              <p className="text-lg font-extralight">
                 New business:{" "}
                 <a href={`mailto:${item.contact.new_business}`}>
                   {item.contact.new_business}
@@ -29,14 +29,14 @@ export default function Footer() {
             </div>
             <div>
               <h2 className="text-2xl font-medium">Careers</h2>
-              <p>
+              <p className="text-lg font-extralight">
                 <a href={`mailto:${item.careers}`}>{item.careers}</a>
               </p>
             </div>
             <div>
               <h2 className="text-2xl font-medium">Address</h2>
-              <p>{item.address.street}</p>
-              <p>{item.address.city}</p>
+              <p className="text-lg font-extralight">{item.address.street}</p>
+              <p className="text-lg font-extralight">{item.address.city}</p>
             </div>
             <h2 className="text-2xl font-medium">Social</h2>
             <ul>
@@ -48,7 +48,9 @@ export default function Footer() {
         ))}
       </div>
       <div>
-        <p>C 2023 Vaultflow. All Rights Reserved.</p>
+        <p className="font-extralight text-[#939393]">
+          &copy; 2023 Vaultflow. All Rights Reserved.
+        </p>
       </div>
     </div>
   );
