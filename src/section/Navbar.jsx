@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="m-8 flex items-center justify-between rounded-3xl bg-[#0B081C] bg-opacity-50 px-10 py-2.5 text-[#ECECEC]">
         <div className="flex cursor-pointer gap-2 text-xl">
           <img
-            src="../assets/Valtflow.svg"
+            src="../assets/Vaultflow.svg"
             alt="Vaultflow logo"
             className="h-6 w-6"
           />
