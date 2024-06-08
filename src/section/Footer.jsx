@@ -59,11 +59,11 @@ export default function Footer() {
           </div>
         </div>
       ))}
-      <div className="mt-6 flex justify-between">
+      <div className="mt-6 flex justify-between max-md:flex-col-reverse">
         <p className="font-extralight leading-6 text-[#939393]">
           &copy; 2023 Vaultflow. All Rights Reserved.
         </p>
-        <div className="flex gap-3">
+        <div className="flex gap-3 max-md:py-2">
           <img
             src="../assets/Vaultflow.svg"
             alt="Vaultflow logo"
