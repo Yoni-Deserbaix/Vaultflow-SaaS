@@ -3,7 +3,7 @@ import Button from "../components/button";
 export default function Navbar() {
   return (
     <div>
-      <div className="m-8 flex items-center justify-between rounded-3xl bg-[#0B081C] bg-opacity-50 px-10 py-2.5 text-[#ECECEC] max-sm:mx-2 max-sm:px-5 max-sm:py-1.5">
+      <div className="m-8 flex items-center justify-between rounded-3xl bg-[#0B081C] bg-opacity-50 px-10 py-2.5 text-[#ECECEC] max-sm:mx-2 max-sm:px-5 max-sm:py-1.5 animate-fade-down">
         <div className="flex cursor-pointer gap-2 text-xl">
           <img
             src="../assets/Vaultflow.svg"

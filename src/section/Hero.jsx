@@ -1,7 +1,7 @@
 import Button from "../components/button";
 export default function Hero() {
   return (
-    <div className="mt-28 text-center max-md:mt-12">
+    <div className="animate-fade-up mt-28 text-center max-md:mt-12">
       <Button
         text="We just raised $20M in Series B. Learn more"
         className="mx-auto flex max-w-[417px] cursor-default justify-center border-opacity-30 py-2.5 max-sm:mx-auto max-sm:max-w-80 max-sm:p-1.5 max-sm:text-xs"
