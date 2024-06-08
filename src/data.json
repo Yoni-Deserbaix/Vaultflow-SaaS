@@ -37,12 +37,9 @@
                 "new_business": "newbusiness@vaultflow.com"
             },
             "careers": "careers@vaultflow.com",
-            "footer_text": "C 2023 Vaultflow. All Rights Reserved.",
             "address": {
                 "street": "398 Lith Street, Floor 2",
-                "city": "San Francisco",
-                "state": "CA",
-                "zip_code": "94103"
+                "city": "San Francisco, CA 94103"
             },
             "social": [
                 "Twitter",
