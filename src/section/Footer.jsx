@@ -5,7 +5,10 @@ export default function Footer() {
     <div className="mx-auto max-w-screen-xl p-4 text-white">
       <div>
         {data.footer.map((item, index) => (
-          <div key={index}>
+          <div
+            key={index}
+            className="grid h-[290px] w-[924px] grid-cols-2 justify-between"
+          >
             <div>
               <h2 className="text-2xl font-medium">Contact</h2>
               <p className="text-lg font-extralight">
@@ -28,22 +31,24 @@ export default function Footer() {
               </p>
             </div>
             <div>
+              <h2 className="text-2xl font-medium">Address</h2>
+              <p className="text-lg font-extralight">{item.address.street}</p>
+              <p className="text-lg font-extralight">{item.address.city}</p>
+            </div>
+            <div>
               <h2 className="text-2xl font-medium">Careers</h2>
               <p className="text-lg font-extralight">
                 <a href={`mailto:${item.careers}`}>{item.careers}</a>
               </p>
             </div>
             <div>
-              <h2 className="text-2xl font-medium">Address</h2>
-              <p className="text-lg font-extralight">{item.address.street}</p>
-              <p className="text-lg font-extralight">{item.address.city}</p>
+              <h2 className="text-2xl font-medium">Social</h2>
+              <ul>
+                {item.social.map((platform, index) => (
+                  <li key={index}>{platform}</li>
+                ))}
+              </ul>
             </div>
-            <h2 className="text-2xl font-medium">Social</h2>
-            <ul>
-              {item.social.map((platform, index) => (
-                <li key={index}>{platform}</li>
-              ))}
-            </ul>
           </div>
         ))}
       </div>
