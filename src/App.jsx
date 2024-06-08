@@ -1,5 +1,6 @@
 import Brand from "./section/Brand";
 import Features from "./section/Features";
+import Footer from "./section/Footer";
 import Hero from "./section/Hero";
 import HeroImage from "./section/HeroImage";
 import HeroNoImage from "./section/HeroNoImage";
@@ -21,6 +22,7 @@ export default function App() {
             <Brand />
             <Features />
             <HeroNoImage />
+            <Footer />
           </div>
         </div>
       </div>
