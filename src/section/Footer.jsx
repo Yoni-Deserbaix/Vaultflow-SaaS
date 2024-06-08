@@ -2,7 +2,7 @@ import data from "../data";
 
 export default function Footer() {
   return (
-    <div className="mx-auto max-w-screen-xl p-4 text-white">
+    <div className="mx-auto mt-28 max-w-screen-xl p-4 text-white">
       <div>
         {data.footer.map((item, index) => (
           <div
@@ -45,7 +45,7 @@ export default function Footer() {
               <h2 className="text-2xl font-medium">Social</h2>
               <ul>
                 {item.social.map((platform, index) => (
-                  <li key={index}>{platform}</li>
+                  <li className="font-extralight text-lg cursor-pointer" key={index}>{platform}</li>
                 ))}
               </ul>
             </div>
