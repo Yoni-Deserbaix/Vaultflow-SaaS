@@ -1,7 +1,18 @@
-import footerData from "../data";
+import data from "../data";
 
 export default function Footer() {
-  const { footerData: data } = footerData;
 
-  return <div>Footer</div>;
+  return (
+    <div>
+      <div className="">
+        {data.footer.map((item, index) => (
+          <div key={index}>
+            <h1>
+                
+            </h1>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }
