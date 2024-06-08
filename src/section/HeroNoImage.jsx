@@ -9,7 +9,7 @@ export default function HeroNoImage() {
           style={cardStyle}
         >
           <div className="mx-auto h-auto max-w-3xl">
-            <h1 className="text-5xl font-bold leading-[57px] max-md:m-4 max-md:text-4xl">
+            <h1 className="text-5xl font-bold leading-[57px] max-md:text-4xl">
               Our powerful analytics provides invaluable insights.
             </h1>
             <p className="pt-6 text-lg leading-[27px]">

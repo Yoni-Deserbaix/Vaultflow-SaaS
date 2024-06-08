@@ -14,7 +14,7 @@ export default function Brand() {
       <p className="pt-36 text-center font-light text-white opacity-80 max-sm:mx-4">
         Trusted by teams at over 1,000 of the world’s leading organizations
       </p>
-      <div className="mt-8 flex items-center justify-center gap-3 max-md:grid max-md:grid-cols-3 max-md:flex-col">
+      <div className="mt-8 flex items-center justify-center gap-3 max-md:m-4 max-md:grid max-md:grid-cols-3 max-md:flex-col">
         {partnerLogo.map((logo, index) => (
           <div key={index} className="p-4">
             <img
