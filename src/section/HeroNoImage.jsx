@@ -21,7 +21,7 @@ export default function HeroNoImage() {
             <Button
               text="Download the app"
               invert
-              className="mx-auto mt-8 w-48 py-2.5 font-light"
+              className="mx-auto mt-8 w-48 py-2.5"
             />
           </div>
         </div>

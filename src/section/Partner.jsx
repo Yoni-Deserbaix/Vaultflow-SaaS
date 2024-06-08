@@ -20,7 +20,7 @@ export default function Brand() {
             <img
               src={logo.src}
               alt={logo.name}
-              className="max-h-full max-w-full"
+              className="max-h-full max-w-full transition-all hover:scale-110"
             />
           </div>
         ))}

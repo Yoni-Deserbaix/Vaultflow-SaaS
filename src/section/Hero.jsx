@@ -4,7 +4,7 @@ export default function Hero() {
     <div className="mt-28 text-center max-md:mt-12">
       <Button
         text="We just raised $20M in Series B. Learn more"
-        className="hover:none mx-auto flex max-w-[417px] cursor-auto justify-center border-opacity-30 py-2.5 max-sm:mx-auto max-sm:max-w-80 max-sm:p-1.5 max-sm:text-xs"
+        className="mx-auto flex max-w-[417px] cursor-default justify-center border-opacity-30 py-2.5 max-sm:mx-auto max-sm:max-w-80 max-sm:p-1.5 max-sm:text-xs"
         invert
       ></Button>
       <h1 className="m-7 text-7xl font-medium text-[#ECECEC] max-md:m-4 max-md:text-4xl">
@@ -25,7 +25,7 @@ export default function Hero() {
         <Button
           text="Talk to an expert"
           invert
-          className="py-2.5 font-light max-sm:px-3 max-sm:text-xs"
+          className="py-2.5 max-sm:px-3 max-sm:text-xs"
         />
       </div>
     </div>
