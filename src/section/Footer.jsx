@@ -12,19 +12,28 @@ export default function Footer() {
             <h2 className="pb-3 text-2xl font-medium">Contact</h2>
             <p className="text-lg font-extralight leading-6">
               Work inquiries:{" "}
-              <a href={`mailto:${item.contact.work_inquiries}`}>
+              <a
+                className="transition-all hover:text-gray-400"
+                href={`mailto:${item.contact.work_inquiries}`}
+              >
                 {item.contact.work_inquiries}
               </a>
             </p>
             <p className="text-lg font-extralight leading-6">
               PR and speaking:{" "}
-              <a href={`mailto:${item.contact.pr_and_speaking}`}>
+              <a
+                className="transition-all hover:text-gray-400"
+                href={`mailto:${item.contact.pr_and_speaking}`}
+              >
                 {item.contact.pr_and_speaking}
               </a>
             </p>
             <p className="text-lg font-extralight leading-6">
               New business:{" "}
-              <a href={`mailto:${item.contact.new_business}`}>
+              <a
+                className="transition-all hover:text-gray-400"
+                href={`mailto:${item.contact.new_business}`}
+              >
                 {item.contact.new_business}
               </a>
             </p>
@@ -41,7 +50,12 @@ export default function Footer() {
           <div>
             <h2 className="pb-3 text-2xl font-medium">Careers</h2>
             <p className="text-lg font-extralight leading-6">
-              <a href={`mailto:${item.careers}`}>{item.careers}</a>
+              <a
+                className="transition-all hover:text-gray-400"
+                href={`mailto:${item.careers}`}
+              >
+                {item.careers}
+              </a>
             </p>
           </div>
           <div>
@@ -49,7 +63,7 @@ export default function Footer() {
             <ul>
               {item.social.map((platform, index) => (
                 <li
-                  className="cursor-pointer text-lg font-extralight"
+                  className="cursor-pointer text-lg font-extralight transition-all hover:text-gray-400"
                   key={index}
                 >
                   {platform}
