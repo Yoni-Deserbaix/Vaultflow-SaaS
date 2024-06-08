@@ -9,7 +9,7 @@ export default function Features() {
           alt=""
           className="absolute -top-16 left-0 right-0 m-auto w-[470px] transform"
         />
-        <h1 className="relative z-10 mx-auto max-w-96 text-5xl leading-tight">
+        <h1 className="relative z-10 mx-auto max-w-96 text-5xl leading-tight max-md:text-4xl">
           Features that work for your future.
         </h1>
         <p className="mx-auto max-w-[470px] py-12 text-lg leading-tight">
