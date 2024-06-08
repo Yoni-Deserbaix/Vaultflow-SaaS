@@ -10,7 +10,7 @@ export default function Navbar() {
             alt="Vaultflow logo"
             className="h-6 w-6"
           />
-          <p className="font-bold">Vaultflow</p>
+          <p className="font-bold leading-6">Vaultflow</p>
         </div>
         <ul className="flex flex-row gap-16 font-light">
           <li className="cursor-pointer transition-all hover:text-gray-300">
