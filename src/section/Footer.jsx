@@ -69,7 +69,7 @@ export default function Footer() {
           <img
             src="../assets/Valtflow.svg"
             alt="Vaultflow logo"
-            className="h-6 w-6 translate-y-1"
+            className="h-6 w-6"
           />
           <p className="text-[22px] font-bold leading-6">Vaultflow</p>
         </div>
