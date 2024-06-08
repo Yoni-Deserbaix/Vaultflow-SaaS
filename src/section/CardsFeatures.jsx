@@ -23,7 +23,7 @@ export default function CardsFeatures() {
                 </h1>
                 <p className="text-[#ECECEC]">{card.caption}</p>
               </div>
-              <p className="mt-8 cursor-pointer text-white underline">
+              <p className="mt-8 cursor-pointer text-white underline transition-all hover:text-gray-400">
                 {card.viewLink}
               </p>
             </div>
@@ -48,7 +48,7 @@ export default function CardsFeatures() {
             <p className="w-full max-w-md text-[#ECECEC] max-sm:w-full">
               {data.cardsData[2].caption}
             </p>
-            <p className="mt-8 cursor-pointer text-white underline">
+            <p className="mt-8 cursor-pointer text-white underline transition-all hover:text-gray-400">
               {data.cardsData[2].viewLink}
             </p>
           </div>
@@ -58,7 +58,7 @@ export default function CardsFeatures() {
             src={data.cardsData[2].imageCode}
             alt="DigitalToken.js code"
             style={cardStyle}
-            className="w-auto h-auto rounded-3xl"
+            className="h-auto w-auto rounded-3xl"
           />
         </div>
       </div>
