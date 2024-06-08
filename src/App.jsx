@@ -1,4 +1,4 @@
-import Brand from "./section/Brand";
+import Partner from "./section/Partner";
 import Features from "./section/Features";
 import Footer from "./section/Footer";
 import Hero from "./section/Hero";
@@ -19,7 +19,7 @@ export default function App() {
             <HeroImage />
           </div>
           <div className="-mt-12 bg-[#0b0121]">
-            <Brand />
+            <Partner />
             <Features />
             <HeroNoImage />
             <Footer />

@@ -1,5 +1,5 @@
 export default function Brand() {
-  const brandsLogo = [
+  const partnerLogo = [
     { name: "Dell", src: "./assets/brand/dell_logo.svg" },
     { name: "Zendesk", src: "./assets/brand/zendesk_logo.svg" },
     { name: "Rakuten", src: "./assets/brand/rakuten_logo.svg" },
@@ -15,7 +15,7 @@ export default function Brand() {
         Trusted by teams at over 1,000 of the world’s leading organizations
       </p>
       <div className="mt-8 flex items-center justify-center gap-3 max-md:grid max-md:grid-cols-3 max-md:flex-col">
-        {brandsLogo.map((logo, index) => (
+        {partnerLogo.map((logo, index) => (
           <div key={index} className="p-4">
             <img
               src={logo.src}
