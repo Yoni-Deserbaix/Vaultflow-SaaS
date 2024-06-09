@@ -7,7 +7,7 @@ export default function CardsFeatures() {
     <div className="mx-auto max-w-screen-xl p-4">
       <div className="grid grid-cols-2 gap-6 max-[1024px]:grid-cols-1">
         {data.cardsData.slice(0, 2).map((card, index) => (
-          <FadeOnScroll delay={0.8} key={index} className="flex">
+          <FadeOnScroll delay={0.2} key={index} className="flex">
             <div
               className="flex h-full w-full flex-col justify-between rounded-3xl p-14"
               style={cardStyle}
@@ -31,7 +31,7 @@ export default function CardsFeatures() {
           </FadeOnScroll>
         ))}
       </div>
-      <FadeOnScroll delay={0.4}>
+      <FadeOnScroll delay={0.2}>
         <div
           className="mt-20 flex h-full w-full flex-row justify-between rounded-3xl p-14 max-lg:mt-6 max-md:flex-col"
           style={cardStyle}
