@@ -1,3 +1,5 @@
+import FadeOnScroll from "../components/FadeOnScroll";
+
 export default function Brand() {
   const partnerLogo = [
     { name: "Dell", src: "./assets/brand/dell_logo.svg" },
@@ -11,18 +13,22 @@ export default function Brand() {
 
   return (
     <div>
-      <p className="pt-36 text-center font-light text-white opacity-80 max-sm:mx-4">
-        Trusted by teams at over 1,000 of the world’s leading organizations
-      </p>
+      <FadeOnScroll delay={0}>
+        <p className="pt-36 text-center font-light text-white opacity-80 max-sm:mx-4">
+          Trusted by teams at over 1,000 of the world’s leading organizations
+        </p>
+      </FadeOnScroll>
       <div className="mt-8 flex items-center justify-center gap-3 max-md:m-4 max-md:grid max-md:grid-cols-3 max-md:flex-col">
         {partnerLogo.map((logo, index) => (
-          <div key={index} className="p-4">
-            <img
-              src={logo.src}
-              alt={logo.name}
-              className="max-h-full max-w-full transition-all hover:scale-110"
-            />
-          </div>
+          <FadeOnScroll key={index} delay={index * 0.1}>
+            <div className="p-4">
+              <img
+                src={logo.src}
+                alt={logo.name}
+                className="max-h-full max-w-full transition-all hover:scale-110"
+              />
+            </div>
+          </FadeOnScroll>
         ))}
       </div>
     </div>
