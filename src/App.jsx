@@ -8,7 +8,7 @@ import Partner from "./section/Partner";
 
 export default function App() {
   return (
-    <div className="bg-[#0b0121] bg-[url('../public/assets/background.png')] bg-top bg-repeat-x">
+    <div className="bg-[#0b0121] bg-[url('/assets/background.png')] bg-top bg-repeat-x">
       <div className="p-8">
         <Navbar />
       </div>
